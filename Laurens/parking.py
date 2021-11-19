@@ -31,7 +31,7 @@ with database.cursor() as cursor1:
     cursor1.execute(plaats1)
     result = cursor1.fetchall()
     if result == ():
-        print ("<i class=\"fas fa-check-circle\"></i>")
+        print ("<i style=\"color: green\" class=\"fas fa-3x fa-check-circle\"></i>")
     else:
         for row in result:
             print ("<span id=licenseplate>" + row[0] + "</span>")
