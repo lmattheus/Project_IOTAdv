@@ -1,3 +1,4 @@
+#sudo apt-get install fswebcam
 import RPi.GPIO as GPIO
 import time
 import os
