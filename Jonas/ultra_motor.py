@@ -68,6 +68,7 @@ try:
         distance = measure()
         if(distance <= 30):
             print("car!!!")
+            os.system("fswebcam -r 1280x720 --no-banner image1.jpg")
             for i in range(100):
                 wave_drive(8,25,24,23)
             for i in range(100):
