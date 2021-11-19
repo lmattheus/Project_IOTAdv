@@ -85,13 +85,13 @@ try:
         distance = measure()
         if(distance <= 30):
             print("car!!!")
-            if (GPIO.input(17)==0 and status1 != "bezet"):
+            if (GPIO.input(22)==0 and status1 != "bezet"):
                 print("bezet1")
                 counter-=1
                 status1 = "bezet"
                 print(counter)
 
-            elif (GPIO.input(17)==1 and status1 != ""):
+            elif (GPIO.input(22)==1 and status1 != ""):
                 print("leeg")
                 status1 = ""
                 counter+=1
