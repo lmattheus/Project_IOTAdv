@@ -58,8 +58,8 @@ cursor = database.cursor()
 #cursor.execute("TRUNCATE TABLE parkeergarage") #tabel leegmaken na herstart
 
 # broker and client declaration
-broker = '127.0.0.1'
-client = mqtt.Client('PI_LM1') #client name
+broker = 'test.mosquitto.org'
+client = mqtt.Client('PI_LM2') #client name
 
 # bind callback functions
 #client.on_connect=on_connect
