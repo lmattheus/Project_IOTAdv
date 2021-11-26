@@ -31,7 +31,7 @@ with database.cursor() as cursor1:
     cursor1.execute(plaats1)
     result = cursor1.fetchall()
     if result == ():
-        print ("<i style=\"color: green\" class=\"fas fa-check-circle\"></i>")
+        print ("<i style=\"color: green\" class=\"fas fa-3x fa-check-circle\"></i>")
     else:
         for row in result:
             print ("<span id=licenseplate>" + row[0] + "</span>")
@@ -40,7 +40,7 @@ with database.cursor() as cursor2:
     cursor2.execute(plaats2)
     result = cursor2.fetchall()
     if result == ():
-        print ("<i style=\"color: green\" class=\"fas fa-check-circle\"></i>")
+        print ("<i style=\"color: green\" class=\"fas fa-3x fa-check-circle\"></i>")
     else:
         for row in result:
             print ("<span id=licenseplate>" + row[0] + "</span>")
@@ -49,7 +49,7 @@ with database.cursor() as cursor3:
     cursor3.execute(plaats3)
     result = cursor3.fetchall()
     if result == ():
-        print ("<i style=\"color: green\" class=\"fas fa-check-circle\"></i>")
+        print ("<i style=\"color: green\" class=\"fas fa-3x fa-check-circle\"></i>")
     else:
         for row in result:
             print ("<span id=licenseplate>" + row[0] + "</span>")
@@ -58,7 +58,7 @@ with database.cursor() as cursor4:
     cursor4.execute(plaats4)
     result = cursor4.fetchall()
     if result == ():
-        print ("<i style=\"color: green\" class=\"fas fa-check-circle\"></i>")
+        print ("<i style=\"color: green\" class=\"fas fa-3x fa-check-circle\"></i>")
     else:
         for row in result:
             print ("<span id=licenseplate>" + row[0] + "</span>")
