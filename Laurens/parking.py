@@ -25,7 +25,7 @@ print ("<style>         body {             margin: 0;             padding: 0;   
 print ("<title>Parking</title>")
 print ("</head>")
 print ("<body>")
-print ("<h2 style=\"margin-top: 0\">Waarden:</h2>")
+print ("<h2 style=\"margin-top: 0\">Parking:</h2>")
 print ("<table> <tr> <td>")
 with database.cursor() as cursor1:
     cursor1.execute(plaats1)
